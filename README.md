@@ -1,29 +1,81 @@
-# 🧾 Invoice Generator App
 
-A full-stack **Invoice Generator Application** built using modern web technologies.  
-This project is designed to create, manage, and store professional invoices efficiently.
+ <h1 align = "center">Professional Invoice Generator App </h1>
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="60" /><br/>
+      <strong>Node.js</strong>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="60" /><br/>
+      <strong>Express.js</strong>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="60" /><br/>
+      <strong>MongoDB</strong>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="60" /><br/>
+      <strong>React</strong>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" width="60" /><br/>
+      <strong>Tailwind CSS</strong>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+
+
+
+
 ---
+
+## ✨ Overview
+
+The **Invoice Generator App** allows users to create, manage, and store professional invoices using a scalable backend and a modern frontend architecture.
+
+This project is built with **best practices** and is suitable for:
+- Freelancers
+- Small businesses
+- Portfolio demonstration
+
+---
+
 ## 🚀 Tech Stack
-### Frontend
+
+### 🖥️ Frontend
 - React (Vite)
 - Tailwind CSS
-### Backend
+
+### ⚙️ Backend
 - Node.js
 - Express.js
 - MongoDB (Mongoose)
+
 ---
-## ✨ Features (Planned & In-Progress)
-- Create professional invoices
-- Generate unique invoice numbers
-- Store invoices in MongoDB
-- RESTful API architecture
-- Secure backend configuration using dotenv
-- Scalable project structure
-- Future PDF invoice generation
-- Authentication (JWT) – upcoming
+
+## 🧩 Features
+
+- 📄 Create professional invoices
+- 🔢 Auto-generated invoice numbers
+- 🗂️ Store invoices in MongoDB
+- 🌐 RESTful API architecture
+- 🔐 Secure environment configuration
+- 📦 Scalable folder structure
+- 📄 PDF invoice generation (coming soon)
+- 👤 Authentication with JWT (planned)
+
 ---
+
 ## 📂 Project Structure
+
 ```
+
 Invoice_App/
 │
 ├── backend/
@@ -31,58 +83,85 @@ Invoice_App/
 │   ├── routes/
 │   ├── controllers/
 │   ├── config/
+│   ├── middleware/
 │   ├── server.js
 │   └── .env
 │
 ├── frontend/
-│   └── (React + Tailwind setup)
+│   └── (React + Tailwind)
 │
 └── README.md
+
 ````
+
 ---
 
 ## ⚙️ Backend Setup
+
 ### 1️⃣ Clone Repository
 ```bash
 git clone https://github.com/balghari2025/InvoiceGenerator.git
 cd Invoice_App/backend
 ````
+
 ### 2️⃣ Install Dependencies
+
 ```bash
 npm install
 ```
+
 ### 3️⃣ Environment Variables
+
 Create a `.env` file inside `backend` folder:
+
 ```env
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 ```
-### 4️⃣ Run Server
+
+### 4️⃣ Run Development Server
+
 ```bash
 npm run dev
 ```
-Server will run on:
+
+Server will start at:
+
 ```
 http://localhost:5000
 ```
+
 ---
-## 🧠 Development Status
-🚧 **Project is currently under active development**
-More features and UI enhancements will be added soon.
+
+## 🛣️ API Status
+
+🚧 Backend APIs are under active development
+Frontend UI will be integrated next.
+
 ---
-## 📌 Future Improvements
-* PDF invoice export
-* Client & product management
-* Invoice history & search
-* Authentication & user dashboard
-* Responsive UI
+
+## 🔮 Future Enhancements
+
+* 📄 PDF invoice export
+* 📊 Invoice dashboard
+* 🔍 Search & filter invoices
+* 👥 User authentication
+* 📱 Fully responsive UI
+
 ---
+
 ## 👨‍💻 Author
-* Shoaib Ahmed
-* BS Computer Science Student
+
+**Shoaib Ahmed**
+* BS Computer Science
+* University of Baltistan Skardu
 * Skills: React, Node.js, MongoDB, Tailwind CSS
+
 ---
-## 📄 License
-This project is licensed under the **MIT License**.
+
+## 📜 License
+
+This project is licensed under the **MIT License**
+Feel free to use and modify it.
 
