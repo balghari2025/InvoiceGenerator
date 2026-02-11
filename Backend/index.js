@@ -1,3 +1,6 @@
+const dns = require('dns');
+dns.setServers(['1.1.1.1', '8.8.8.8']);   // Cloudflare + Google DNS
+require("node:dns/promises").setServers(["1.1.1.1", "8.8.8.8"]);
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
@@ -5,9 +8,9 @@ const bodyParser = require("body-parser");
 require("dotenv").config();
 
 const app = express();
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 5000;
 
-require("./model/db");
+ require("./model/db");
 
 const Authrouter = require("./routes/authrout");
 const productRoutes = require("./routes/productrout");
